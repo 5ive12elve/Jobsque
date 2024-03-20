@@ -1,0 +1,7 @@
+import 'package:final_project/data/models/selectionPopupModel/selection_popup_model.dart';import '../../../core/app_export.dart';import 'jobdetailpeople_item_model.dart';/// This class defines the variables used in the [job_detail_people_page],
+/// and is typically used to hold data that is passed between different parts of the application.
+class JobDetailPeopleModel {Rx<List<SelectionPopupModel>> dropdownItemList = Rx([SelectionPopupModel(id:1,title:"Item One",isSelected:true,),SelectionPopupModel(id:2,title:"Item Two",),SelectionPopupModel(id:3,title:"Item Three",)]);
+
+Rx<List<JobdetailpeopleItemModel>> jobdetailpeopleItemList = Rx([JobdetailpeopleItemModel(dimasAdiSaputro:ImageConstant.imgDimasProfile.obs,dimasAdiSaputro1: "Dimas Adi Saputro".obs,seniorUIUXDesigner: "Senior UI/UX Designer at Twitter".obs,workDuring: "Work during".obs,duration: "5 Years".obs),JobdetailpeopleItemModel(dimasAdiSaputro:ImageConstant.imgSyahrulProfile.obs,dimasAdiSaputro1: "Syahrul Ramadhani".obs,seniorUIUXDesigner: "Senior UI/UX Designer at Twitter".obs,workDuring: "Work during".obs,duration: "5 Years".obs),JobdetailpeopleItemModel(dimasAdiSaputro:ImageConstant.imgFarrelProfile.obs,dimasAdiSaputro1: "Farrel Daniswara".obs,seniorUIUXDesigner: "Senior UI/UX Designer at Twitter".obs,workDuring: "Work during".obs,duration: "4 Years".obs),JobdetailpeopleItemModel(dimasAdiSaputro:ImageConstant.imgAzzahraProfile.obs,dimasAdiSaputro1: "Azzahra Farrelika".obs,seniorUIUXDesigner: "UI/UX Designer at Twitter".obs,workDuring: "Work during".obs,duration: "4 Years".obs)]);
+
+ }

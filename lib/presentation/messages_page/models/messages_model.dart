@@ -1,0 +1,5 @@
+import '../../../core/app_export.dart';import 'messageslist_item_model.dart';/// This class defines the variables used in the [messages_page],
+/// and is typically used to hold data that is passed between different parts of the application.
+class MessagesModel {Rx<List<MessageslistItemModel>> messageslistItemList = Rx([MessageslistItemModel(circleImage:ImageConstant.imgTwitterLogo.obs,message: "1".obs,twitter: "Twitter".obs,oneThousandTwoHundredThirtyNin: "12.39".obs,hereIsTheLink: "Here is the link: http://zoom.com/abcdeefg".obs),MessageslistItemModel(circleImage:ImageConstant.imgGojekLogo.obs,message: "1".obs),MessageslistItemModel(circleImage:ImageConstant.imgDanaLogo44x44.obs,message: "1".obs),MessageslistItemModel(twitter: "Shoope".obs,oneThousandTwoHundredThirtyNin: "09.45".obs,hereIsTheLink: "Thank You David!".obs),MessageslistItemModel(twitter: "Slack".obs,oneThousandTwoHundredThirtyNin: "12/8".obs,hereIsTheLink: "You: I look forward to hearing from you".obs),MessageslistItemModel(twitter: "Facebook".obs,oneThousandTwoHundredThirtyNin: "12/8".obs,hereIsTheLink: "You: What about the interview stage?".obs)]);
+
+ }
